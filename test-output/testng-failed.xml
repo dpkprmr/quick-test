@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Drive Quick Smoke Test Suite]">
+  <test name="GTN Smoke Test">
+    <groups>
+      <run>
+        <include name="Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.InvokeBrowser"/>
+    </classes>
+  </test> <!-- GTN Smoke Test -->
+</suite> <!-- Failed suite [Drive Quick Smoke Test Suite] -->
