@@ -21,7 +21,7 @@ public class InvokeBrowser {
   @BeforeClass(alwaysRun = true)
   public void beforeClass() {
 	  System.out.println("Before Class Execution");
-	  System.setProperty("webdriver.chrome.driver", "H:\\dpkprmr Work\\Integrichain\\quick-test\\src\\test\\resources\\drivers");
+	  System.setProperty("webdriver.chrome.driver", "H:\\dpkprmr Work\\Integrichain\\quick-test\\src\\test\\resources\\drivers\\chromedriver.exe");
       
       // Instantiate a ChromeDriver class.     
   driver=new ChromeDriver();  

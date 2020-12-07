@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.802 sec - in TestSuite
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 0.622 sec <<< FAILURE! - in TestSuite
+beforeClass(testCases.InvokeBrowser)  Time elapsed: 0.302 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable is a directory: H:\dpkprmr Work\Integrichain\quick-test\src\test\resources\drivers
+	at testCases.InvokeBrowser.beforeClass(InvokeBrowser.java:27)
+
+afterClass(testCases.InvokeBrowser)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testCases.InvokeBrowser.afterClass(InvokeBrowser.java:39)
+

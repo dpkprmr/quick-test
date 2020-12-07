@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Drive Quick Smoke Test Suite]">
+<suite thread-count="1" name="Failed suite [Drive Quick Smoke Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test name="GTN Smoke Test">
     <groups>
       <run>
@@ -11,4 +11,20 @@
       <class name="testCases.InvokeBrowser"/>
     </classes>
   </test> <!-- GTN Smoke Test -->
+  <test name="GTN Smoke Test(failed)">
+    <groups>
+      <run>
+        <include name="Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.InvokeBrowser">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testCases.InvokeBrowser -->
+    </classes>
+  </test> <!-- GTN Smoke Test(failed) -->
 </suite> <!-- Failed suite [Drive Quick Smoke Test Suite] -->
