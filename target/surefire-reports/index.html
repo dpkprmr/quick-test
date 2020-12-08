@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Drive_Quick_Smoke_Test_Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Drive Quick Smoke Test Suite</span>
+              <span class="suite-name border-passed">Drive Quick Smoke Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Drive_Quick_Smoke_Test_Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Drive_Quick_Smoke_Test_Suite" class="hide-methods skipped suite-Drive_Quick_Smoke_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-Drive_Quick_Smoke_Test_Suite -->
-                      <a href="#" panel-name="suite-Drive_Quick_Smoke_Test_Suite" class="show-methods skipped suite-Drive_Quick_Smoke_Test_Suite"> (show)</a> <!-- show-methods skipped suite-Drive_Quick_Smoke_Test_Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Drive_Quick_Smoke_Test_Suite" class="hide-methods passed suite-Drive_Quick_Smoke_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Drive_Quick_Smoke_Test_Suite -->
+                      <a href="#" panel-name="suite-Drive_Quick_Smoke_Test_Suite" class="show-methods passed suite-Drive_Quick_Smoke_Test_Suite"> (show)</a> <!-- show-methods passed suite-Drive_Quick_Smoke_Test_Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Drive_Quick_Smoke_Test_Suite">
+                    <div class="method-list-content passed suite-Drive_Quick_Smoke_Test_Suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Drive_Quick_Smoke_Test_Suite" title="testCases.InvokeBrowser" class="method navigator-link" hash-for-method="f">f</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Drive_Quick_Smoke_Test_Suite -->
+                    </div> <!-- method-list-content passed suite-Drive_Quick_Smoke_Test_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Drive_Quick_Smoke_Test_Suite" class="panel Drive_Quick_Smoke_Test_Suite">
-          <div class="suite-Drive_Quick_Smoke_Test_Suite-class-skipped">
+          <div class="suite-Drive_Quick_Smoke_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">testCases.InvokeBrowser</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -131,7 +131,7 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Drive_Quick_Smoke_Test_Suite-class-skipped -->
+          </div> <!-- suite-Drive_Quick_Smoke_Test_Suite-class-passed -->
         </div> <!-- panel Drive_Quick_Smoke_Test_Suite -->
         <div panel-name="test-xml-Drive_Quick_Smoke_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -152,22 +152,6 @@
       &lt;class name=&quot;testCases.InvokeBrowser&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- GTN Smoke Test --&gt;
-  &lt;test name=&quot;GTN Smoke Test(failed)&quot;&gt;
-    &lt;groups&gt;
-      &lt;run&gt;
-        &lt;include name=&quot;Test&quot;/&gt;
-      &lt;/run&gt;
-    &lt;/groups&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testCases.InvokeBrowser&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;afterClass&quot;/&gt;
-          &lt;include name=&quot;beforeClass&quot;/&gt;
-          &lt;include name=&quot;f&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- testCases.InvokeBrowser --&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- GTN Smoke Test(failed) --&gt;
 &lt;/suite&gt; &lt;!-- Drive Quick Smoke Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -180,9 +164,6 @@
             <ul>
               <li>
                 <span class="test-name">GTN Smoke Test (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">GTN Smoke Test(failed) (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -220,12 +201,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'f')
 data.setCell(0, 2, 'testCases.InvokeBrowser')
-data.setCell(0, 3, 1);
+data.setCell(0, 3, 949);
 window.suiteTableData['Drive_Quick_Smoke_Test_Suite']= { tableData: data, tableDiv: 'times-div-Drive_Quick_Smoke_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 ms</span>
+              <span class="suite-total-time">Total running time: 949 ms</span>
               <div id="times-div-Drive_Quick_Smoke_Test_Suite">
               </div> <!-- times-div-Drive_Quick_Smoke_Test_Suite -->
             </div> <!-- times-div -->
@@ -253,20 +234,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.InvokeBrowser</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">beforeClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">f</span>
-                <span class="method-start">64 ms</span>
+                <span class="method-start">9146 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">afterClass</span>
-                <span class="method-start">65 ms</span>
+                <span class="method-start">10096 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

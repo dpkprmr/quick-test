@@ -11,20 +11,4 @@
       <class name="testCases.InvokeBrowser"/>
     </classes>
   </test> <!-- GTN Smoke Test -->
-  <test name="GTN Smoke Test(failed)">
-    <groups>
-      <run>
-        <include name="Test"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="testCases.InvokeBrowser">
-        <methods>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-          <include name="f"/>
-        </methods>
-      </class> <!-- testCases.InvokeBrowser -->
-    </classes>
-  </test> <!-- GTN Smoke Test(failed) -->
 </suite> <!-- Failed suite [Drive Quick Smoke Test Suite] -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.622" tests="3" errors="0" skipped="1" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="11.483" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="14.0.2+12"/>
@@ -61,19 +61,5 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="beforeClass" classname="testCases.InvokeBrowser" time="0.302">
-    <failure message="The driver executable is a directory: H:\dpkprmr Work\Integrichain\quick-test\src\test\resources\drivers" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable is a directory: H:\dpkprmr Work\Integrichain\quick-test\src\test\resources\drivers
-	at testCases.InvokeBrowser.beforeClass(InvokeBrowser.java:27)
-</failure>
-    <system-out><![CDATA[Before Class Execution
-]]></system-out>
-  </testcase>
-  <testcase name="f" classname="testCases.InvokeBrowser" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="afterClass" classname="testCases.InvokeBrowser" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at testCases.InvokeBrowser.afterClass(InvokeBrowser.java:39)
-</failure>
-  </testcase>
+  <testcase name="f" classname="testCases.InvokeBrowser" time="0.951"/>
 </testsuite>
